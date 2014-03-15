@@ -15,7 +15,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
 public class SQLRunner {
-	static Logger logger = Logger.getLogger(SQLRunner.class);
+	static final Logger logger = Logger.getLogger(SQLRunner.class);
 	public static final String DELIMITER_LINE_REGEX = "(?i)DELIMITER.+",
 			DELIMITER_LINE_SPLIT_REGEX = "(?i)DELIMITER",
 			DEFAULT_DELIMITER = ";";

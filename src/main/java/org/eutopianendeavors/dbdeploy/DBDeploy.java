@@ -19,7 +19,7 @@ import org.eutopianendeavors.dbdeploy.models.SqlScript;
 
 public class DBDeploy {
 
-	static Logger logger = Logger.getLogger(DBDeploy.class);
+	static final Logger logger = Logger.getLogger(DBDeploy.class);
 
 	private String jdbcDriver;
 	private String dbUrl;
